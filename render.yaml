@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: bank2excel
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
